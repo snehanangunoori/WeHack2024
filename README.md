@@ -7,6 +7,6 @@
 
 ## Description:
 
-Our hackathon project for UTD's freshmen engineering majors offers essential support for their transition into college life. Featuring a comprehensive calendar
+Our hackathon project for WeHack 2024 focuses on UTD's freshmen engineering majors offering essential support for their transition into college life. Featuring a comprehensive calendar
 showcasing freshmen events, a tuition predictor tool for estimating costs based on user inputs, and an AP Score Evaluation tool to determine eligible course credits. 
 Empowering freshmen with valuable resources tailored to their needs.
