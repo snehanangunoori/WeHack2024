@@ -1,0 +1,124 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p {
+  padding: 2%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #e87500;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  font-family: "Trirong", serif;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: "Trirong", serif;
+  font-size: 20px;
+  line-height: 2;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.green-strip {
+  background-color: #154734;
+  height: 20px;
+}
+
+#myForm {
+  background-color: #e9edbb;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form {
+  max-width: 300px;
+  margin: 0 auto;
+  background: #154734;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+input[type=number]:focus {
+  background-color: rgb(218, 223, 214);
+}
+
+input[type=text]:focus {
+  background-color: rgb(218, 223, 214);
+}
+
+input[type=number] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  background-color: #e87500;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #154734;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AP Score Credit Calcultor</title>
+
+    <link rel="stylesheet" href="APScore.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="APScore.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>UTD Freshman Onboarding</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <div class="green-strip"></div>
+            <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\APScore\APScore.html">AP Score Credit Evaluation</a></li>
+            <li class="border"> </li>
+            <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\calendar\embedCalendar.html">Freshman Events</a></li>
+            <li class="border"> </li>
+            <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\tuitionPrediction\tuitionPrediction.html">Tuition Predictor</a></li>
+        </ul>
+    </nav>
+
+    <form action="/submit" method="post" id="myForm">
+    
+        <label for="credits">AP Class: </label><br>
+        <input type="number" id="credits" name="credits"><br><br>
+    
+    
+    
+        <label for="dorm">Score: </label><br>
+        <input type="text" id="dorm" name="dorm"><br><br>
+    
+    
+        <input type="submit" value="Submit">
+    
+    </form>
+    
+    <div id="output"></div>
+
+
+</body>
+
+</html>

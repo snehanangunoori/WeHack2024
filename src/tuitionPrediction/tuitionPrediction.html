@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTD Tuition Predictor</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="tuitionPrediction.js" defer></script>
+    <script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="tuitionPrediction.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>UTD Freshman Onboarding</h1>
+    </header>
+
+<nav>
+    <ul>
+        <div class="green-strip"></div>
+        <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\APScore\APScore.html">AP Score Credit
+                Evaluation</a></li>
+        <li class="border"> </li>
+        <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\calendar\embedCalendar.html">Freshman
+                Events</a></li>
+        <li class="border"> </li>
+        <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\tuitionPrediction\tuitionPrediction.html">Tuition
+                Predictor</a></li>
+    </ul>
+</nav>
+    
+    <p> Please fully fill out the form to predict your tuition for the coming up semester.</p>
+
+    <form action="/submit" method="post" id="myForm">
+
+        <p>What is your major?</p>
+        <input type="radio" id="major1" name="major" value="Computer Science">
+        <label for="major1">Computer Science</label><br>
+        <input type="radio" id="major2" name="major" value="Electrical Engineering">
+        <label for="major2">Electrical Engineering</label><br>
+        <input type="radio" id="major3" name="major" value="Mechanical Engineering">
+        <label for="major3">Mechanical Engineering</label><br>
+        <input type="radio" id="major4" name="major" value="Biomedical Engineering">
+        <label for="major4">Biomedical Engineering</label><br>
+        <input type="radio" id="major5" name="major" value="Software Engineering">
+        <label for="major5">Software Engineering</label><br>
+        <input type="radio" id="major6" name="major" value="Computer Engineering">
+        <label for="major6">Computer Engineering</label><br><br>
+    
+        <label for="credits">Number of Credits:</label><br>
+        <input type="number" id="credits" name="credits"><br><br>
+
+
+    
+        <label for="dorm">Will you be living at the dorms?:</label><br>
+        <input type="text" id="dorm" name="dorm"><br><br>
+
+    
+        <label for="meal">What meal plan will you have? 0, 10, 14, or 19:</label><br>
+        <input type="number" id="meal" name="meal"><br><br>
+
+        <p>Semester?</p>
+        <label><input type="radio" name="semester" value="a"> Fall</label><br>
+        <label><input type="radio" name="semester" value="b"> Spring</label><br>
+
+        <br>
+    
+        <p>What parking plan will you be on?</p>
+        <label><input type="radio" name="parkingPlan" value="a"> University Commons Residence Halls Permit</label><br>
+        <label><input type="radio" name="parkingPlan" value="b"> University Commons Residence Halls + Gold Combo Permit</label><br>
+        <label><input type="radio" name="parkingPlan" value="c"> University Commons Residence Halls + Orange Combo Permit</label><br>
+        <label><input type="radio" name="parkingPlan" value="d"> Accessible Parking Permit</label><br>
+        <label><input type="radio" name="parkingPlan" value="e"> No Parking Plan</label><br><br>
+
+    
+        <label for="resident">Are you a texas resident?</label><br>
+        <input type="text" id="resident" name="resident"><br><br>
+
+    
+        <label for="aid">How much aid will you be recieving? Skip question if no aid</label><br>
+        <input type="text" id="aid" name="aid"><br><br>
+
+    
+        <input type="submit" value="Submit">
+    
+    </form>
+    
+
+    <div id="output"></div>
+
+    
+
+</body>
+
+</html>

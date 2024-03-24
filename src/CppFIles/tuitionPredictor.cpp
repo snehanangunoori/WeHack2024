@@ -25,10 +25,7 @@ int main()
     getline(cin, housing); 
     if(housing == "yes" || housing == "Yes"){
         housingCost = 4300;
-    }
-    
-    //cin.ignore();
-    
+    }    
 
     cout << "What meal plan will you have? 0, 10, 14, or 19: "; 
     cin >> mealPlan; 
