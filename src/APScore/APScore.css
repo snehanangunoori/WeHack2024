@@ -75,7 +75,7 @@ section {
   border-radius: 5px;
 }
 
-form {
+.myForm {
   max-width: 300px;
   margin: 0 auto;
   background: #154734;
@@ -110,7 +110,7 @@ input[type=text] {
   margin-bottom: 10px;
 }
 
-input[type=submit] {
+button {
   background-color: #e87500;
   color: white;
   padding: 12px 20px;
@@ -119,6 +119,6 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+button:hover {
   background-color: #154734;
 }

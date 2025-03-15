@@ -19,30 +19,29 @@
     <nav>
         <ul>
             <div class="green-strip"></div>
-            <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\APScore\APScore.html">AP Score Credit Evaluation</a></li>
+            <li><a href="..\APScore\APScore.html">AP Score Credit
+                    Evaluation</a></li>
             <li class="border"> </li>
-            <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\calendar\embedCalendar.html">Freshman Events</a></li>
+            <li><a href="..\calendar\embedCalendar.html">Freshman
+                    Events</a></li>
             <li class="border"> </li>
-            <li><a href="C:\Users\sneha\Documents\SNEHA\UTDALLAS\WeHack2024\src\tuitionPrediction\tuitionPrediction.html">Tuition Predictor</a></li>
+            <li><a href="..\tuitionPrediction\tuitionPrediction.html">Tuition
+                    Predictor</a></li>
         </ul>
     </nav>
 
-    <form action="/submit" method="post" id="myForm">
+    <div id="myForm">
+        <label for="class">AP Class:</label>
+        <input type="text" id="class" name="class"><br><br>
     
-        <label for="credits">AP Class: </label><br>
-        <input type="number" id="credits" name="credits"><br><br>
+        <label for="score">Score:</label>
+        <input type="number" id="score" name="score"><br><br>
     
+        <button type="button" onclick="apScore()">Submit</button>
+    </div>
+
     
-    
-        <label for="dorm">Score: </label><br>
-        <input type="text" id="dorm" name="dorm"><br><br>
-    
-    
-        <input type="submit" value="Submit">
-    
-    </form>
-    
-    <div id="output"></div>
+    <p id="output"></p>
 
 
 </body>
